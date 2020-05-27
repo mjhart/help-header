@@ -47,3 +47,13 @@ app.use(
   })
 );
 ```
+
+The keys in the config object must be a number or one of:
+
+* `informational`
+* `successful`
+* `redirection`
+* `clientError`
+* `serverError`
+
+The values must be strings encoding valid URLs or URL objects.
