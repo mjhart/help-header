@@ -1,5 +1,5 @@
 import express from "express";
-import { helpHeader } from "../src";
+import helpHeader from "../src";
 import request from "supertest";
 
 it("matches on status code before status family", async () => {
