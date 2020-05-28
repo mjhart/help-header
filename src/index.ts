@@ -64,4 +64,4 @@ function helpHeader(config: HelpHeaderConfig): RequestHandler {
   };
 }
 
-export default helpHeader;
+export { helpHeader };

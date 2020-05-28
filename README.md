@@ -37,7 +37,7 @@ authorization documentation, you may use something like:
 
 ```javascript
 const express = require('express');
-const helpHeader = require('help-header');
+const helpHeader = require('help-header').helpHeader;
 
 const app = express();
 app.use(

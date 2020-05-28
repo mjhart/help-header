@@ -1,6 +1,6 @@
 {
   "name": "help-header",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Add a Link header pointing API consumers to your documentation.",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",

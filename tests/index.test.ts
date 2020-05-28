@@ -1,5 +1,5 @@
 import express from "express";
-import helpHeader from "../src";
+import { helpHeader } from "../src";
 import request from "supertest";
 
 it("matches on status code before status family", async () => {
@@ -90,7 +90,7 @@ it("adds header if error thrown", async () => {
     })
   );
   app.get("/test", () => {
-    throw new Error("something went wrong!")
+    throw new Error("something went wrong!");
   });
 
   const res = await request(app).get("/test").send();
