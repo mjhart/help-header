@@ -1,6 +1,6 @@
 {
   "name": "help-header",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Add a Link header pointing API consumers to your documentation.",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "build": "tsc --build",
+    "prepublish": "npm test && npm run build",
     "test": "jest",
     "clean": "rm -rf build"
   },
