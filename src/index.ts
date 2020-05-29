@@ -1,6 +1,6 @@
-import onHeaders = require("on-headers");
 import { RequestHandler, Response } from "express";
 import { ServerResponse } from "http";
+import onHeaders from "on-headers";
 
 interface HelpHeaderConfig {
   [statusCode: number]: URL | string;
