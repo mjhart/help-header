@@ -42,7 +42,7 @@ const helpHeader = require('help-header').helpHeader;
 const app = express();
 app.use(
   helpHeader({
-    403: "http://example.com/docs/authorization",
+    401: "http://example.com/docs/authorization",
     clientError: "http://example.com/docs",
   })
 );
